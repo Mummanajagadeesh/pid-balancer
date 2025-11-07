@@ -72,7 +72,7 @@ impl Default for Cart {
             m1,
             m2,
             m3,
-            pid: (40., 8., 2.5),
+            pid: (0., 0., 0.),
             steps: 5,
             enable: true,
             integrator: Integrator::default(),
